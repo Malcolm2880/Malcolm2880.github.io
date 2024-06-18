@@ -1,6 +1,6 @@
 import React from 'react';
 import './Fox.css'; 
-import face from '/studentPic.png'; // Tell webpack this JS file uses this image
+import face from '/Down.png'; // Tell webpack this JS file uses this image
 
 function Fox() {
     return (
