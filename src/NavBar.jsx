@@ -11,7 +11,12 @@ function NavBar() {
   return (
     <nav>
         <button type="button" onClick={handleClick} className="btn-hover color-1">Home</button>
-        
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
         <button type="button" onClick={handleClick} className="btn-hover color-1">Experience</button>
           
        
