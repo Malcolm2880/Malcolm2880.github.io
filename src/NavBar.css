@@ -1,20 +1,22 @@
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    
     overflow: hidden;
     float: left;
   }
 nav {
   position: sticky;
-  float: left;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
-  z-index: 1000; /* Ensures it stays above other content */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  z-index: 200;
+  margin: 0 5%;
 }
   nav ul li {
     float: left;
+    padding-left: 0px;
    
   }
   
