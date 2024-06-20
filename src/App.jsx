@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './NavBar.jsx'
 import Fox from './fox'
+import Tech from './Tech.jsx'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <NavBar />
       <Fox />
+      <Tech />
     </div>
   )
 }

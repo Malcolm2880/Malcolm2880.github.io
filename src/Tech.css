@@ -3,44 +3,55 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 0px;
+    margin-top: 49px;
     z-index: 1;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 #pic {
     
-    display: flex;
+    
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 0px;
     z-index: 1;
     margin-left: 5%;
     margin-right: 5%;
 }
 
-#box {
-  width: 66%;
+#item {
+    display: grid;
+}
+
+#section{
+    width: 100%;
+    border: 5px solid rgb(0, 0, 0);
+    display: grid;
+    align-items: center; 
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+
+#boxTech {
+  width: 30%;
   height: 800px;
   display: flex;
   align-items: center; 
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  border: 5px solid gray;
+  border: 5px solid rgb(0, 0, 0);
   background-color: rgb(24, 39, 58);
   margin: 0;
   float: left;
   justify-content: center;
-  margin-left: 16%;
+  animation: rotate 8s infinite;     
+  margin-left: 30%;
   margin-right: 16%;
-  
-  min-width: 500px;
-  min-height: 900px;
-  animation: rotate 20s infinite;
-  
 
-  margin-top: 100px;
+ 
 
    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
     box-shadow: 40px 40px 15000px 0 rgba(49, 196, 190, 0.75);
@@ -49,14 +60,13 @@
 }
 
 #box:hover {
-    animation-play-state: paused;
-  }
+  animation-play-state: paused;
+}
 
 
 
 ul {
   display: block;
-  float: left;
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
