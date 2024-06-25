@@ -1,15 +1,11 @@
 import React from 'react';
-import './Fox.css'; 
+import './Projects.css'; 
 import face from '/tempFace.png'; // Tell webpack this JS file uses this image
 
-function Fox() {
+function Projects() {
     return (
-        <div id ="box">
-          
-            <div id = "pic">
-            <img src={face} alt="Logo" />
-            </div>
-        <div id="person">
+        <div id ="ProjectBoxes">
+            
            
         <header>
             <h1>Hello I am Malcolm Tees-DeBeyer</h1>
@@ -17,10 +13,10 @@ function Fox() {
            
         </header>
         </div>
-        
+    
       
         
-    </div>
+ 
     );
 }
-export default Fox;
+export default Projects;

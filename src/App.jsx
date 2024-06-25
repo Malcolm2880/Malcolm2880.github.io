@@ -6,16 +6,18 @@ import './App.css'
 import NavBar from './NavBar.jsx'
 import Fox from './fox'
 import Tech from './Tech.jsx'
+import Projects from './Projects.jsx'
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <div id ="all">
       <NavBar />
       <Fox />
       <Tech />
+      <Projects />
     </div>
   )
 }

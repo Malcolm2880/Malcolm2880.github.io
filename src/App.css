@@ -6,6 +6,12 @@
  
 }
 
+#all {
+  justify-content: space-evenly;
+  display: block;
+
+}
+
 #pog{
    display: flex;
   justify-content: flex-start; /* Moves items to the left */
