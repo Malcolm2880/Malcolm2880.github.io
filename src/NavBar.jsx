@@ -10,19 +10,23 @@ function handleClick() {
 function NavBar() {
   return (
     <nav>
-        <button type="button" onClick={handleClick} className="btn-hover color-1">Home</button>
+        <a href="#all" className="btn-hover color-1">Home</a>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
         <span></span>
-        <button type="button" onClick={handleClick} className="btn-hover color-1">Experience</button>
+        <a href="#section" className="btn-hover color-1">Skills</a>
+        <a href="#section2" className="btn-hover color-1">Projects</a>
+        <a href="#nav2" className="btn-hover color-1">Contact Me!</a>
+        {/* <button type="button" onClick={handleClick} className="btn-hover color-1">Experience</button>
           
        
         <button type="button" onClick={handleClick} className="btn-hover color-1">Projects</button>
        
-        <button type="button" onClick={handleClick} className="btn-hover color-1">Projects</button>
+        <button type="button" onClick={handleClick} className="btn-hover color-1">Projects</button> */}
+        
        
     </nav>
   );

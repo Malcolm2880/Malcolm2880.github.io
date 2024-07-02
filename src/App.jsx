@@ -7,6 +7,7 @@ import NavBar from './NavBar.jsx'
 import Fox from './fox'
 import Tech from './Tech.jsx'
 import Projects from './Projects.jsx'
+import Footer from './Footer.jsx'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Fox />
       <Tech />
       <Projects />
+      <Footer />
     </div>
   )
 }

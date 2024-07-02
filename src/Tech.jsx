@@ -1,88 +1,89 @@
 import React from 'react';
 import './Tech.css'; 
 import face from '/Down.png'; 
-
+import Java from '/Java.png'; 
 function Tech() {
     return (
         <div id = "section">
-            <h2>
+            <h1>
                 Skills
-            </h2>
+            </h1>
             <div id ="skillbox">
                 <div id ="Skills">
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Java</h2>
+                    <img src={Java} alt="Logo" />
+                    </div>
+                    <div id = "Tech">
+                    <h2> Python</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> C</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> C++</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Scala</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Groovy</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> JavaScript</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> TypeScript</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Bash</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> HTML</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> CSS</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> React</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Node</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Docker</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Jenkins</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Gradle</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> Puppet</h2>
                     <img src={face} alt="Logo" />
                     </div>
                     <div id = "Tech">
-                    <h2> Apple</h2>
-                    <img src={face} alt="Logo" />
-                    </div>
-                    <div id = "Tech">
-                    <h2> Apple</h2>
+                    <h2> SQL</h2>
                     <img src={face} alt="Logo" />
                     </div>
                 </div>
+            
             
 
 
@@ -112,6 +113,9 @@ function Tech() {
             
             </div>
         </div>
+            <h1>
+                And Many More!
+            </h1>
     </div>
     );
 }
