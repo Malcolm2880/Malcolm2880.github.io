@@ -26,100 +26,16 @@ background-color: rgb(50, 125, 223);
 
 
 
-#person {
-    
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 49px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-#pic {
-  
-  
-  align-items: center;
-  justify-content: space-evenly;
-  margin-top: 0px;
-  z-index: 1;
-
-}
-
-
-#skillbox{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-margin-top: 14px;
-}
-
-#Skills {
-width: 100%;
-display: flex;
-flex-wrap: wrap;
-gap: 30px;
-justify-content: space-around;
- 
-}
-
-#Tech {
-display: flex;
-flex-direction: column;
-align-items: center;
-text-align: center;
-height: 200px;
-width: 200px;
-background-color: rgb(2, 2, 2);
-border-radius: 50%;
-display: inline-block;
-justify-content: space-evenly; 
-
-}
-
-
-#itemMid {
-  display: flex;
-}
-
-#itemLow {
-  display: flex;
-  
- 
-}
-
-
-#section{
-
-
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
-
-
- 
-  
-}
-
-#boxTech {
- 
-
-width: 35%;
-display: flex;
-
-flex-wrap: wrap;
-gap: 30px;
-
-margin: 0;
-float: left;
-justify-content: center;   
-padding: 24px;
-flex-direction: column;
 
 
 
 
-}
+
+
+
+
+
+
 
 u2 {
 border: 5px solid rgb(0, 0, 0);

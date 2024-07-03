@@ -6,142 +6,47 @@ function Projects() {
         return (
             <div id = "section2">
                 <h1>
-                    Projects!
+                   Experience & Projects! 
                 </h1>
                 <div id ="skillbox">
                     <div id ="Skills">
                     <ul>
-                        <h1> Visier!</h1>
-                        <h2>September 2022 -- April 2023</h2>
+                        <h1> UBC Course Searcher</h1>
+                        <h2>September 2023 -- December 2023</h2>
                             <li>
-                            Communicated and collaborated with other developers about problems with the developmental workflow. Resolved
-                            them through Gradle tasks, Bash scripts and new Jenkins pipelines.
+                            Large capstone project designed under test driven development. Created 100+ tests using ChaiJS testing framework.
                             </li>
                             <li>
-                            Reduced flagship software startup time by 50% by remediating Gradle compile logic.
+                            Created RESTful API with implementations of GET, POST, and DELETE. Which is accessed from a React front-end.
                             </li>
                             <li>
-                            Reduced sandbox DB startup time by 35% through reducing Gradle task responsibilities.
+                            Managed multiple data types, wrote data to disk, and implemented querying of 1000+ data instances.
                             </li>
-                            <li>
-                            participated in an on-call rotation for driving all developer pull requests, and responded to failures in the
-                            integration tests. Alerted developers about the reasons for their tests failing, and created tickets for faulty tests.
-                            </li>
-                            <li>
-                            Won internal development competition with Jenkins job optimization using git-bisect and understanding of Visier’s
-                            build systems, decreasing monthly AWS service costs by 5%.
-                            </li>
+                            
                     </ul>
                     <ul>
-                        <h1> Visier!</h1>
-                        <h2>September 2022 -- April 2023</h2>
+                        <h1> Slay the Spire Card Manager</h1>
+                        <h2>April 2022 -- July 2022</h2>
                             <li>
-                            Communicated and collaborated with other developers about problems with the developmental workflow. Resolved
-                            them through Gradle tasks, Bash scripts and new Jenkins pipelines.
+                            A interactive and intelligent program that manages a card deck, and allows additions. All of which is given visual feedback.
                             </li>
                             <li>
-                            Reduced flagship software startup time by 50% by remediating Gradle compile logic.
+                            Calculates optimal hands for the current deck based on added damage and defense cards.
                             </li>
-                            <li>
-                            Reduced sandbox DB startup time by 35% through reducing Gradle task responsibilities.
-                            </li>
-                            <li>
-                            participated in an on-call rotation for driving all developer pull requests, and responded to failures in the
-                            integration tests. Alerted developers about the reasons for their tests failing, and created tickets for faulty tests.
-                            </li>
-                            <li>
-                            Won internal development competition with Jenkins job optimization using git-bisect and understanding of Visier’s
-                            build systems, decreasing monthly AWS service costs by 5%.
-                            </li>
+                            
                     </ul>
                     <ul>
-                        <h1> Visier!</h1>
-                        <h2>September 2022 -- April 2023</h2>
+                        <h1>Formula 1 Database Management System</h1>
+                        <h2>September 2021 -- December 2021</h2>
                             <li>
-                            Communicated and collaborated with other developers about problems with the developmental workflow. Resolved
-                            them through Gradle tasks, Bash scripts and new Jenkins pipelines.
+                            Created relational database using SQL that stores Formula one race information and enforces relational database rules.
                             </li>
                             <li>
-                            Reduced flagship software startup time by 50% by remediating Gradle compile logic.
+                            Allowed for live updates and database alteration using SQL statements and queries through a intuitive UI front end created with Java Swing.
                             </li>
-                            <li>
-                            Reduced sandbox DB startup time by 35% through reducing Gradle task responsibilities.
-                            </li>
-                            <li>
-                            participated in an on-call rotation for driving all developer pull requests, and responded to failures in the
-                            integration tests. Alerted developers about the reasons for their tests failing, and created tickets for faulty tests.
-                            </li>
-                            <li>
-                            Won internal development competition with Jenkins job optimization using git-bisect and understanding of Visier’s
-                            build systems, decreasing monthly AWS service costs by 5%.
-                            </li>
+                           
                     </ul>
-                    <ul>
-                        <h1> Visier!</h1>
-                        <h2>September 2022 -- April 2023</h2>
-                            <li>
-                            Communicated and collaborated with other developers about problems with the developmental workflow. Resolved
-                            them through Gradle tasks, Bash scripts and new Jenkins pipelines.
-                            </li>
-                            <li>
-                            Reduced flagship software startup time by 50% by remediating Gradle compile logic.
-                            </li>
-                            <li>
-                            Reduced sandbox DB startup time by 35% through reducing Gradle task responsibilities.
-                            </li>
-                            <li>
-                            participated in an on-call rotation for driving all developer pull requests, and responded to failures in the
-                            integration tests. Alerted developers about the reasons for their tests failing, and created tickets for faulty tests.
-                            </li>
-                            <li>
-                            Won internal development competition with Jenkins job optimization using git-bisect and understanding of Visier’s
-                            build systems, decreasing monthly AWS service costs by 5%.
-                            </li>
-                    </ul>
-                    <ul>
-                        <h1> Visier!</h1>
-                        <h2>September 2022 -- April 2023</h2>
-                            <li>
-                            Communicated and collaborated with other developers about problems with the developmental workflow. Resolved
-                            them through Gradle tasks, Bash scripts and new Jenkins pipelines.
-                            </li>
-                            <li>
-                            Reduced flagship software startup time by 50% by remediating Gradle compile logic.
-                            </li>
-                            <li>
-                            Reduced sandbox DB startup time by 35% through reducing Gradle task responsibilities.
-                            </li>
-                            <li>
-                            participated in an on-call rotation for driving all developer pull requests, and responded to failures in the
-                            integration tests. Alerted developers about the reasons for their tests failing, and created tickets for faulty tests.
-                            </li>
-                            <li>
-                            Won internal development competition with Jenkins job optimization using git-bisect and understanding of Visier’s
-                            build systems, decreasing monthly AWS service costs by 5%.
-                            </li>
-                    </ul>
-                    <ul>
-                        <h1> Visier!</h1>
-                        <h2>September 2022 -- April 2023</h2>
-                            <li>
-                            Communicated and collaborated with other developers about problems with the developmental workflow. Resolved
-                            them through Gradle tasks, Bash scripts and new Jenkins pipelines.
-                            </li>
-                            <li>
-                            Reduced flagship software startup time by 50% by remediating Gradle compile logic.
-                            </li>
-                            <li>
-                            Reduced sandbox DB startup time by 35% through reducing Gradle task responsibilities.
-                            </li>
-                            <li>
-                            participated in an on-call rotation for driving all developer pull requests, and responded to failures in the
-                            integration tests. Alerted developers about the reasons for their tests failing, and created tickets for faulty tests.
-                            </li>
-                            <li>
-                            Won internal development competition with Jenkins job optimization using git-bisect and understanding of Visier’s
-                            build systems, decreasing monthly AWS service costs by 5%.
-                            </li>
-                    </ul>
+                    
                      
                     </div>
             </div>

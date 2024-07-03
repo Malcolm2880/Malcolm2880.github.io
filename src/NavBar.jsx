@@ -20,12 +20,6 @@ function NavBar() {
         <a href="#section" className="btn-hover color-1">Skills</a>
         <a href="#section2" className="btn-hover color-1">Projects</a>
         <a href="#nav2" className="btn-hover color-1">Contact Me!</a>
-        {/* <button type="button" onClick={handleClick} className="btn-hover color-1">Experience</button>
-          
-       
-        <button type="button" onClick={handleClick} className="btn-hover color-1">Projects</button>
-       
-        <button type="button" onClick={handleClick} className="btn-hover color-1">Projects</button> */}
         
        
     </nav>
