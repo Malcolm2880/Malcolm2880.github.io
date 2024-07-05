@@ -7,6 +7,7 @@
     z-index: 1;
     margin-left: 0%;
     margin-right: 0%;
+    
   }
 #pic {
     
@@ -17,10 +18,15 @@
     z-index: 1;
     margin-left: 5%;
     margin-right: 5%;
-    border-radius: 500px;
+    border-radius: 5px;
+
+    
 
 }
 
+img {
+  border-radius: 8px;
+}
 
 
 

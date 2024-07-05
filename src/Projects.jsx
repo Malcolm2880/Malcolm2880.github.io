@@ -4,16 +4,16 @@ import face from '/Down.png'; // Tell webpack this JS file uses this image
 
 function Projects() {
         return (
-            <div id = "section2">
+            <div id = "section2" >
                 <h1>
-                   Experience & Projects! 
+                  Projects! 
                 </h1>
-                <div id ="skillbox">
+                <div id ="skillbox" >
                     <div id ="Skills">
                     <ul>
                         <h1> UBC Course Searcher</h1>
                         <h2>September 2023 -- December 2023</h2>
-                            <li>
+                            <li >
                             Large capstone project designed under test driven development. Created 100+ tests using ChaiJS testing framework.
                             </li>
                             <li>
