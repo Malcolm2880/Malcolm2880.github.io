@@ -8,6 +8,7 @@ import Fox from './fox'
 import Tech from './Tech.jsx'
 import Projects from './Projects.jsx'
 import Footer from './Footer.jsx'
+import Experience from './Experience'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <NavBar />
       <Fox />
       <Tech />
+      <Experience/>
       <Projects />
       <Footer />
     </div>
