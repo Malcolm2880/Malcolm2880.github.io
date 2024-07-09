@@ -12,7 +12,8 @@ function Fox() {
         <div id="person">
            
         
-            <h1>Hello I am Malcolm Tees-DeBeyer</h1>
+            
+            <h1>This site is under construction!</h1> 
            
           
 
