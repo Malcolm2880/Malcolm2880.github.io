@@ -10,7 +10,28 @@ function Projects() {
                 </h1>
                 <div id ="skillbox" >
                     <div id ="Skills"  className ="sibling-fade">
-                   
+                    <div id = "ProjectBoxes">
+
+                    <img src={face} alt="Logo" />   
+                                     <h1> Test Project</h1>
+                  
+                        <h2>
+                        Large capstone project designed under test driven development. Created 100+ tests using ChaiJS testing framework.
+                        
+                        Created RESTful API with implementations of GET, POST, and DELETE. Which is accessed from a React front-end.
+                        </h2>
+                        
+                    
+                    
+                        <u1 id="flex">
+                         
+                        <h2 class="glow-on-hover2"> Java</h2>
+                        <h2 class="glow-on-hover2"> JavaScript</h2>
+                        <h2 class="glow-on-hover2"> C</h2>
+                        </u1>
+                        <a href="https://www.youtube.com/watch?v=4ez8B4Cy5Mw&ab_channel=Surat2880" className="btn-hover color-1">Demo</a>
+                        
+                        </div>
                         <div id = "ProjectBoxes">
 
                         
@@ -26,6 +47,7 @@ function Projects() {
                            
                             
                             
+
                             <a href="https://www.youtube.com/watch?v=4ez8B4Cy5Mw&ab_channel=Surat2880" className="btn-hover color-1">Demo</a>
                             
                             </div>

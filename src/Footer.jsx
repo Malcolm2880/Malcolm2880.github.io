@@ -9,15 +9,17 @@ function handleClick() {
 function Footer() {
   return (
     <div id ="nav2">
-        <h1>
-            Contact me!
-        </h1>
-        <ol>
-                        <h1> malcolmteesd@Gmail.com</h1>
-                        <h1> https://www.linkedin.com/in/malcolm-tees-debeyer-71661b160/</h1>
-                        <h1> https://github.com/Malcolm2880</h1>
-                        
-                    </ol>
+        
+       <h1> Contact me!</h1>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <a href="mailto:malcolmteesd@Gmail.com" className="btn-hover color-1">Email</a>
+        <a href="https://www.linkedin.com/in/malcolm-tees-debeyer-71661b160/" className="btn-hover color-1">Linkedin</a>
+        <a href="https://github.com/Malcolm2880" className="btn-hover color-1">Github</a>
         
        
     </div>

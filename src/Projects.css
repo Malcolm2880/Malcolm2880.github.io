@@ -8,6 +8,7 @@
   justify-content: center;   
   padding: 24px;
   flex-direction: column;
+  
 }
 #person {
     
@@ -104,6 +105,18 @@ padding: 24px;
 flex-direction: column;
 
 
+
+
+}
+
+#flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:350px;
+  gap:5px;
+  padding:5px;
+  
 }
 
 
@@ -165,20 +178,21 @@ a {
 
 
 
-.glow-on-hover {
-  
+.glow-on-hover2 {
+  width: 150px;
   border: none;
   outline: none;
   color: #fff;
   background: #111;
-  cursor: pointer;
+  text-align: center;
   position: flex;
   z-index: 0;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px 0 rgba(2, 245, 111, 0.75);
+  
 }
 
-.glow-on-hover:before {
+#glow-on-hover2:before {
   content: '';
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
@@ -197,11 +211,11 @@ a {
 
 
 
-.glow-on-hover:hover:before {
+#glow-on-hover2:hover:before {
   opacity: 1;
 }
 
-.glow-on-hover:after {
+#glow-on-hover2:after {
   z-index: -1;
   content: '';
   position: absolute;
@@ -211,4 +225,10 @@ a {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
 }
