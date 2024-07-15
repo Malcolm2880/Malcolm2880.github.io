@@ -3,17 +3,18 @@
   background-color: rgb(24, 39, 58);
   padding: 24px;
   display: flex;
-  
+
   max-width: 400px;
-  justify-content: center;   
+  justify-content: center;
   padding: 24px;
   flex-direction: column;
-  background: linear-gradient(180deg, rgba(0,66,9,1) 0%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(180deg, rgba(0, 66, 9, 1) 0%, rgba(0, 0, 0, 1) 100%);
 
-  
+
 }
+
 #person {
-    
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,11 +26,11 @@
 
 
 
-#skillbox{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-margin-top: 14px;
+#skillbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 14px;
 }
 
 
@@ -42,12 +43,12 @@ margin-top: 14px;
 
 #itemLow {
   display: flex;
-  
- 
+
+
 }
 
 
-#section2{
+#section2 {
 
 
   margin-top: 79px;
@@ -55,24 +56,24 @@ margin-top: 14px;
   margin-right: 10%;
 
 
- 
-  
+
+
 }
 
 #boxTech {
- 
 
-width: 35%;
-display: flex;
 
-flex-wrap: wrap;
-gap: 30px;
+  width: 35%;
+  display: flex;
 
-margin: 0;
-float: left;
-justify-content: center;   
-padding: 24px;
-flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin: 0;
+  float: left;
+  justify-content: center;
+  padding: 24px;
+  flex-direction: column;
 
 
 
@@ -88,24 +89,24 @@ flex-direction: column;
   height: 100px;
   width: auto;
   margin-top: 10px;
-  
- 
-  
+
+
+
 
 }
 
 
 ul {
-border: 5px solid rgb(0, 0, 0);
-background-color: rgb(24, 39, 58);
+  border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(24, 39, 58);
 
-padding: 24px;
-display: flex;
+  padding: 24px;
+  display: flex;
 
-max-width: 400px;
-justify-content: center;   
-padding: 24px;
-flex-direction: column;
+  max-width: 400px;
+  justify-content: center;
+  padding: 24px;
+  flex-direction: column;
 
 
 
@@ -116,35 +117,53 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content:space-evenly;
-  min-width:350px;
-  gap:5px;
-  padding:5px;
-  margin:0;
-  
-  
+  justify-content: space-evenly;
+  min-width: 350px;
+  gap: 5px;
+  padding: 5px;
+  margin: 0;
+
+
 }
 
 
-.sibling-fade { visibility: hidden; }
+.sibling-fade {
+  visibility: hidden;
+}
+
 /* Prevents :hover from triggering in the gaps between items */
 
-.sibling-fade > * { visibility: visible; }
+.sibling-fade>* {
+  visibility: visible;
+}
+
 /* Brings the child items back in, even though the parent is `hidden` */
 
-.sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+.sibling-fade>* {
+  transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms;
+}
+
 /* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
 
-.sibling-fade:hover > * { opacity: 0.4; transform: scale(0.9); }
+.sibling-fade:hover>* {
+  opacity: 0.4;
+  transform: scale(0.9);
+}
+
 /* Fade out all items when the parent is hovered */
 
-.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+.sibling-fade>*:hover {
+  opacity: 1;
+  transform: scale(1);
+  transition-delay: 0ms, 0ms;
+}
+
 /* Fade in the currently hovered item */
 
 
 
 #box:hover {
-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 
@@ -152,26 +171,29 @@ animation-play-state: paused;
 
 
 @keyframes rotate {
-0% {
-  transform: rotate(5deg);
-}
-50% {
-  transform: rotate(-5deg);
-}
-100% {
-  transform: rotate(5deg);
-}
+  0% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(5deg);
+  }
 }
 
 
 @keyframes run {
   0% {
-      transform: translateX(-200%);
+    transform: translateX(-200%);
   }
+
   100% {
-      transform: translateX(300%);
+    transform: translateX(300%);
   }
- 
+
 }
 
 
@@ -195,7 +217,7 @@ a {
   z-index: 0;
   border-radius: 20px;
   box-shadow: 0 4px 15px 0 rgba(2, 245, 111, 0.75);
-  
+
 }
 
 #glow-on-hover2:before {
@@ -203,7 +225,7 @@ a {
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -234,7 +256,15 @@ a {
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
 }

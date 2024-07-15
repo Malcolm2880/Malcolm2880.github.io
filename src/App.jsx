@@ -15,11 +15,11 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div id ="all">
+    <div id="all">
       <NavBar />
       <Fox />
       <Tech />
-      <Experience/>
+      <Experience />
       <Projects />
       <Footer />
     </div>
