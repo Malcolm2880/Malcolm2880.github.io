@@ -18,7 +18,7 @@ function NavBar() {
       <span></span>
       <span></span>
       <a href="#section" className="btn-hover color-1">Skills</a>
-      <a href="#section2" className="btn-hover color-1">Projects</a>
+      <a href="#section2" className="btn-hover color-1">Experience</a>
       <a href="#nav2" className="btn-hover color-1">Contact Me!</a>
 
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Tech.css';
-import face from '/Down.png';
 import C from '/C.png';
 import Java from '/java3.png';
 import Css from '/Css.png';
